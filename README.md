@@ -80,6 +80,8 @@ Every day, the service checks the stocks in your portfolio and builds a Notion d
 
 Not yet implemented, but the intended rule: **no API keys or tokens in source or commit history — environment variables only** (`NOTION_API_KEY`, `TELEGRAM_BOT_TOKEN`, and whatever the chosen market-data provider needs), loaded from the deployment environment or a local `.env` file that stays out of git.
 
+See [`SECURITY.md`](SECURITY.md) for the full checklist (secrets, access control, logging, leak response).
+
 ---
 
 <div align="center">

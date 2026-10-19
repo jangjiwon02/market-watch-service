@@ -1,0 +1,10 @@
+# Secrets — never commit these (see SECURITY.md)
+.env
+.env.*
+!.env.example
+
+# Common Node/Python artifacts (adjust once the tech stack is chosen)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
